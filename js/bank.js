@@ -20,7 +20,6 @@ function updateDepositevalue(fieldId, amount) {
 }
 function balanceUpdate(amount, isAdding) {
     const balanceAmount = getInnerTextValue('balance-update');
-
     let NewBalanceTotal;
     if (isAdding == true) {
         NewBalanceTotal = balanceAmount + amount;
